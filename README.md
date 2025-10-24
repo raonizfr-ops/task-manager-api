@@ -53,7 +53,7 @@ Certifique-se de ter o **Python 3.8+** instalado em sua máquina.
     ```
     O servidor estará rodando em `http://127.0.0.1:8000`.
 
-## 📝 Uso da API
+##  Uso da API
 
 Após iniciar o servidor, a documentação interativa estará disponível em:
 
