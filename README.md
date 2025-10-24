@@ -2,7 +2,7 @@
 
 Uma API RESTful robusta e eficiente para gerenciamento de tarefas, construída com **FastAPI** e **SQLAlchemy** (SQLite). Este projeto demonstra a implementação de um backend bem estruturado, seguindo princípios de arquitetura limpa (separação de responsabilidades entre Modelos, Schemas, CRUD e Rotas).
 
-## 🚀 Funcionalidades
+##  Funcionalidades
 
 *   **CRUD Completo:** Criação, Leitura, Atualização e Deleção (Soft Delete) de tarefas.
 *   **Filtragem:** Listagem de tarefas com opção de filtro por status (`pending`, `in_progress`, `completed`).
@@ -10,7 +10,7 @@ Uma API RESTful robusta e eficiente para gerenciamento de tarefas, construída c
 *   **Documentação Automática:** Acesso à documentação interativa da API (Swagger UI) em `/docs` e ReDoc em `/redoc`.
 *   **Boas Práticas:** Uso de *Type Hints* do Python e Injeção de Dependência do FastAPI.
 
-## 🛠️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 | Tecnologia | Descrição |
 | :--- | :--- |
@@ -21,7 +21,7 @@ Uma API RESTful robusta e eficiente para gerenciamento de tarefas, construída c
 | **SQLite** | Banco de dados leve e sem servidor, ideal para o projeto. |
 | **Uvicorn** | Servidor ASGI para rodar a aplicação FastAPI. |
 
-## ⚙️ Instalação e Execução
+##  Instalação e Execução
 
 ### Pré-requisitos
 
@@ -57,7 +57,7 @@ Certifique-se de ter o **Python 3.8+** instalado em sua máquina.
 
 Após iniciar o servidor, a documentação interativa estará disponível em:
 
-👉 **[http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)**
+ **[http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)**
 
 Você pode usar essa interface para testar todos os endpoints:
 
@@ -69,7 +69,7 @@ Você pode usar essa interface para testar todos os endpoints:
 | `PUT` | `/api/v1/tasks/{task_id}` | Atualiza uma tarefa existente. |
 | `DELETE` | `/api/v1/tasks/{task_id}` | Deleta (soft delete) uma tarefa. |
 
-## 💡 Estrutura do Projeto
+##  Estrutura do Projeto
 
 ```
 task-manager-api/
